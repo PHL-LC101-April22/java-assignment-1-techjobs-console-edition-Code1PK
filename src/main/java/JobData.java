@@ -100,8 +100,8 @@ public class JobData {
                 }
             }
         }
-//        return jobs;
-        return new ArrayList<>(new HashSet<>(jobs));
+        return jobs;
+//        return new ArrayList<>(new HashSet<>(jobs));
 //        return null;
     }
 
